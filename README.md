@@ -13,7 +13,7 @@ N/A
 Please navigate to see the projects and click over to follow the link to them.
 
 ## Screenshot
-![image](https://github.com/turquele/my-portfolio/blob/main/images/Screenshot.png)
+![image](images/screenshot.png)
 
 
 ## Credits
