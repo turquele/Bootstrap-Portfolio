@@ -7,10 +7,11 @@ section {
     margin-top: 2rem;
 }
 
-container > #row {
+#skillsCardsContainer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
+
 
 footer > div {
     display: flex;
@@ -22,4 +23,14 @@ footer > div {
 footer > div > div {
     margin: 1rem;
     font-size: x-large;
+}
+
+#contactFormContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: white;
 }

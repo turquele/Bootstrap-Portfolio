@@ -23,10 +23,10 @@
                 <a class="nav-link active text-light" aria-current="page" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" href="#">Skills</a>
+                <a class="nav-link active text-light" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" href="#">Work</a>
+                <a class="nav-link active text-light" href="#work">Work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active text-light" href="#contact" >Contact Me</a>
@@ -58,7 +58,7 @@
             ● Deployment
         </p>
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Hire Me</a>
+          <a class="btn btn-primary btn-lg" href="#contact" role="button">Hire Me</a>
         </p>
       </div>
 
@@ -71,21 +71,36 @@
             
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
             
-            <a href="#" class="btn btn-primary">See my work</a>
+            <a href="#work" class="btn btn-primary">See my work</a>
             
           </div>
         </div>
-
-
       </section>
 
-      <section id="skills">
-        
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="row">
-              <div class="col">
-                <div class="card" style="width: 18rem;">
+      <section class="container" id="skills">
+        <h2>Skills</h2>
+        <div id="skillsCardsContainer">
+          
+                <div class="card" style="width: 25%;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     
+                    </div>
+              </div>
+              
+                <div class="card" style="width: 25%;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  
+              </div>
+              
+                <div class="card" style="width: 25%;">
                     <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -94,29 +109,7 @@
                     </div>
                   </div>
               </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
+         </div>
       </section>
 
       <section class="container" id="work">
@@ -128,6 +121,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="https://github.com/turquele/Bootstrap-Portfolio" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -137,6 +131,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="https://github.com/turquele/prework-study-guide" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -146,6 +141,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="https://github.com/turquele/Bootstrap-Portfolio" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -155,6 +151,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="https://github.com/turquele/prework-study-guide" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </div>
@@ -165,25 +162,47 @@
 
       <section class="container" id="contact">
         <h2>Contact Me</h2>
-        <div class="card" style="width: 22rem;">
-          <div class="card-header">
-            Contact Card
+        <div id="contactFormContainer">
+          
+          <form style="width: 18rem;">
+            <div class="form-group">
+              <label for="exampleInputName1">Name</label>
+              <input type="text" class="form-control" id="exampleInputName" placeholder="Your name and surname">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter your e-mail">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputText">Message</label>
+              <input type="text" class="form-control" id="exampleInputText" placeholder="Your message">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <div>
+            <h4>Jose Alonso</h4>
+            <p><a href="mailto:jose.m.alonso.g@gmail.com">jose.m.alonso.g@gmail.com</a></p>
+            <p>T. +44 (0) 7907267138</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><p>Name: Jose Alonso</p></li>
-            <li class="list-group-item"><p>e-mail: <a href="mailto:jose.m.alonso.g@gmail.com">jose.m.alonso.g@gmail.com</a></p></li>
-            <li class="list-group-item"><p>Tel: +44 (0)790 7267138</p></li>
-          </ul>
+
         </div>
+
+
+
+
       </section>
 
       <footer class="bg-dark text-light">
         <div>
           <div>
-            <p><b><i class="bi bi-github"></i> GitHub</b></p>
+            <p><b><a href="https://github.com/turquele"><i class="bi bi-github"></i> GitHub</a></b></p>
           </div>
           <div>
-            <p><b><i class="bi bi-linkedin"></i> Linkedin</b></p>
+            <p><b><a href="https://www.linkedin.com/in/jose-alonso-9088a7209"><i class="bi bi-linkedin"></i> Linkedin</a></b></p>
+          </div>
+          <div>
+            <p><b><a href="skype:jose-alonso-g?call"><i class="bi bi-skype"></i></i> Skype</a></b></p>
           </div>
         </div>
       </footer>
