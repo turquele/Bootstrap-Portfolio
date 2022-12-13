@@ -7,6 +7,14 @@ section {
     margin-top: 2rem;
 }
 
+footer {
+    display: flex;
+}
+
+footer > div > div {
+    margin: 2rem;
+}
+
 
 footer a {
     color: white;
