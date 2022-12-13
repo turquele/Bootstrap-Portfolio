@@ -8,6 +8,7 @@ section {
 }
 
 footer {
+    margin-top: 2rem;
     display: flex;
 }
 
@@ -18,4 +19,7 @@ footer > div > div {
 
 footer a {
     color: white;
+    margin: 2rem;
+    font-weight: bold;
+    font-size: larger;
 }
