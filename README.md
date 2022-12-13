@@ -1,8 +1,6 @@
 # Bootstrap-Portfolio
 Portfolio layout using the Bootstrap CSS Framework
 
-# My Portfolio Page
-
 ## Description
 A simple website to include my work as developer using the Bootstrap CSS Framework.
 
